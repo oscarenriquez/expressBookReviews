@@ -8,7 +8,7 @@ const getBooksPromise = () =>
   new Promise((resolve) => {
     setTimeout(() => {
       resolve(books);
-    }, 6000);
+    }, 1000);
   });
 
 
