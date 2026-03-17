@@ -36,7 +36,7 @@ regd_users.post("/login", (req,res) => {
   req.session.authorization = { accessToken };
 
   return res.status(200).json({
-    message: "User successfully logged in",
+    message: "Login successful!",
     accessToken,
   });
 });
